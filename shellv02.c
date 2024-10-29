@@ -44,7 +44,7 @@ int main() {
             break;
         }
         if (parse_command(input, args) > 0) {
-            execute_command_v2(args); // Execute command with redirection
+            execute_command_v2(args);
         }
     }
     return 0;
